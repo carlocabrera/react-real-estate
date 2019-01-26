@@ -23,21 +23,23 @@ export default class Filter extends Component {
             <option>2 BR</option>
           </select>
           <div className="filters price">
-            <span className="title">Price (min-max)</span>
-            <input type="text" name="min-price" className="min-price" />
-            <input type="text" name="max-price" className="max-price" />
+            <span className="title">Price</span>
+            <input type="text" name="min-price" className="min-price" placeholder="min" />
+            <input type="text" name="max-price" className="max-price" placeholder="max" />
           </div>
           <div className="filters floor-space">
-            <span className="title">Floor Space (min-max)</span>
+            <span className="title">Floor Space</span>
             <input
               type="text"
               name="min-floor-space"
               className="min-floor-space"
+              placeholder="min"
             />
             <input
               type="text"
               name="max-floor-space"
               className="max-floor-space"
+              placeholder="max"
             />
           </div>
           <div className="filters extras">

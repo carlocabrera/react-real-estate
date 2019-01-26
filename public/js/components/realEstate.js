@@ -85,10 +85,10 @@ var Filter = function (_Component) {
             _react2.default.createElement(
               "span",
               { className: "title" },
-              "Price (min-max)"
+              "Price"
             ),
-            _react2.default.createElement("input", { type: "text", name: "min-price", className: "min-price" }),
-            _react2.default.createElement("input", { type: "text", name: "max-price", className: "max-price" })
+            _react2.default.createElement("input", { type: "text", name: "min-price", className: "min-price", placeholder: "min" }),
+            _react2.default.createElement("input", { type: "text", name: "max-price", className: "max-price", placeholder: "max" })
           ),
           _react2.default.createElement(
             "div",
@@ -96,17 +96,19 @@ var Filter = function (_Component) {
             _react2.default.createElement(
               "span",
               { className: "title" },
-              "Floor Space (min-max)"
+              "Floor Space"
             ),
             _react2.default.createElement("input", {
               type: "text",
               name: "min-floor-space",
-              className: "min-floor-space"
+              className: "min-floor-space",
+              placeholder: "min"
             }),
             _react2.default.createElement("input", {
               type: "text",
               name: "max-floor-space",
-              className: "max-floor-space"
+              className: "max-floor-space",
+              placeholder: "max"
             })
           ),
           _react2.default.createElement(
